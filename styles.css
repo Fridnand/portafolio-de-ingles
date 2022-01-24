@@ -1,0 +1,79 @@
+
+      /* quick and dirty reset */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+		background-color: black;
+		color: white;
+      }
+
+	
+      h1 {
+        margin: 0;
+        font-size: 35px;
+        font-weight: initial;
+      }
+
+	  h2 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: initial;
+      }
+      graphic-element,
+      inner-column {
+        /* custom elements are inline by default */
+        display: block;
+      }
+      
+      /* structure */
+      inner-column {
+        width: 98%;
+        max-width: 740px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 2rem;
+      }
+	  
+   
+      /* theme */
+      body {
+        font-family: 'Georgia', serif;
+        padding-top: 90px;
+        padding-bottom: 20vh;
+      }
+      .site-header inner-column {
+		text-align: center;
+   
+      }
+      .site-header .info {
+        margin-left: 1rem;
+		
+      }
+      .info {
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: .02em;
+		text-align:center;
+
+      }
+
+	  img{
+		display:block;
+		margin:auto;
+		}
+
+	.page-content h2, p {
+		text-align:center;
+		
+
+	}
+
+	
+
+      
+      @media (min-width: 375px) {
+        .company-name {
+          font-size: 23px;
+        }
+      }
+    
