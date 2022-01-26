@@ -1,10 +1,33 @@
-body{
-  text-align: center;
+*{
   background-color:  #CDFEAA;
   color: #437A16;
-  font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
+
+}
+
+.page-section-about-me, .page-section-task-2, .page-section-task-4,  footer{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  
+}
+
+.site-header{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+.page-section-summary{
+  text-align:initial;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin: 35px;
+}
+
+.center {
+  display: block;
+  margin:auto;
 }
 
 p {
