@@ -1,13 +1,19 @@
 *{
-  background-color:  #CDFEAA;
-  color: #437A16;
+  background-color:  whitesmoke;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   
+
 
 }
 
-.page-section-about-me, .page-section-task-2, .page-section-task-4,  footer{
+footer{
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.page-section-about-me, .page-section-task-2, .page-section-task-4{
+  text-align: center;
   font-size: 20px;
   
 }
@@ -28,6 +34,7 @@
 .center {
   display: block;
   margin:auto;
+  border-radius: 50%;
 }
 
 p {
@@ -62,3 +69,15 @@ a:active {
   background: #265301;
   color: #CDFEAA;
 }
+
+
+.web-page-title {
+  font-size: 25px;
+}
+
+.stage-1, .stage-2, .stage-3, .stage-4{
+
+  font-size: 20px;
+
+}
+
