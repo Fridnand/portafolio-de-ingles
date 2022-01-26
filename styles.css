@@ -24,9 +24,8 @@ footer{
   font-size: 25px;
 }
 
-.page-section-summary{
+.page-section-summary, .page-content-task{
   text-align:initial;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   margin: 35px;
 }
