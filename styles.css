@@ -80,3 +80,20 @@ a:active {
 
 }
 
+
+@media (min-width: 600px){
+  .page-content-about-me{
+    columns:2;
+  }
+}
+
+@media (min-width: 900px){
+  .page-content-about-me{
+    columns:3;
+
+  }
+}
+
+h2{
+  text-align: center;
+}
