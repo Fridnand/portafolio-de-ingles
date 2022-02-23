@@ -1,15 +1,8 @@
+
 *{
-  background-color:  whitesmoke;
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
   
-
-
-}
-
-footer{
-  text-align: center;
-  font-size: 18px;
 }
 
 .page-section-about-me, .page-section-task-2, .page-section-task-4{
@@ -96,4 +89,9 @@ a:active {
 
 h2{
   text-align: center;
+}
+
+footer{
+  text-align: center;
+  font-size: 18px;
 }
