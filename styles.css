@@ -29,6 +29,11 @@
   border-radius: 50%;
 }
 
+.center2 {
+  display: block;
+  margin:auto;
+}
+
 p {
   line-height: 1.4;
 }
@@ -75,13 +80,13 @@ a:active {
 
 
 @media (min-width: 600px){
-  .page-content-about-me{
+  .page-content-about-me, .stage-2, .stage-4{
     columns:2;
   }
 }
 
 @media (min-width: 900px){
-  .page-content-about-me{
+  .page-content-about-me, .stage-2, .stage-4{
     columns:3;
 
   }
